@@ -17,14 +17,14 @@ function initialize() {
     // Create an info window to display location info
     var infoWindow = new google.maps.InfoWindow();
 
-    // Create a marker for example : Iran, Zanjan
+    // Create a marker for example : kr mangalam, haryana india
     var marker = new google.maps.Marker({
-        // Cordinates for Iran, Zanjan
-        position: new google.maps.LatLng(36.6769, 48.4963),
+        // Cordinates for kr mangalam,haryana,India
+        position: new google.maps.LatLng(28.2714101, 77.0683555),
         // Attach the marker
         map: map,
         // Tooltip on hover
-        title: 'Iran, Zanjan'
+        title: 'kr mangalam, Haryana, India'
     });
 
     // Add click event listener for marker
